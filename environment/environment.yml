@@ -1,0 +1,29 @@
+name: orfv_pipeline
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - bwa
+  - bwa-mem2
+  - samtools
+  - bcftools
+  - kraken2
+  - fastp
+  - seqkit
+  - mafft
+  - trimal
+  - iqtree
+  - newick_utils
+  - openjdk
+  - r-base
+  - r-ape
+  - r-ggplot2
+  - r-dplyr
+  - r-openxlsx
+  - r-readxl
+  - r-tidyverse
+  - r-pheatmap
+  - r-rcolorbrewer
